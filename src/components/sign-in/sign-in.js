@@ -1,5 +1,6 @@
 import React from "react";
 import FormInput from "../../components/form-input/form-input";
+import CustomButton from "../../components/custom-button/custom-button";
 
 import "./sign-in.scss";
 
@@ -48,7 +49,7 @@ class SignIn extends React.Component {
             handleChange={this.handleChange}
             required
           />
-          <input type="submit" value="Submit Form" />
+          <CustomButton type="submit">Sign In</CustomButton>
         </form>
       </div>
     );
